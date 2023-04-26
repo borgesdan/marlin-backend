@@ -6,15 +6,16 @@ Como proposto para o desafio de vaga para Desenvolvedor .NET C# para a empresa M
 
 ### 📋 Objetivo
 
-API para teste prático requisitado pela empresa Marlin. Desenvolvido em C# com acesso a um banco de dados SQL Server, com a estrutura solicita,
-em ambiente .NET 7, estrutuca MVC/DDD, com Code First Mapping para criação da base de dados com Migrations.
+API para teste prático requisitado pela empresa Marlin. Desenvolvido em C# com acesso a um banco de dados SQL Server, em ambiente .NET 7, estrutura MVC/DDD, com Code First Mapping para criação da base de dados com Migrations.
 
 A API oferece CRUD de alunos e turmas e segue as regras solicitadas:
 
 * Aluno deve ser cadastrado com no mínimo 1 turma;
-* Rotina de verificação de email e CPF válido.
-* Gerenciamento de matrícula de aluno para turmas de 5 alunos, sem repetição de alunos;
-* Gerenciamento de exclusão de dados caso alunos e turmas estejam ainda associados.
+* O e-mail e CPF do aluno não pode ser inválido;
+* Aluno pode se matricular em diversas turmas, mas não mais de 1x na mesma turma;
+* Uma turma não pode ter mais de 5 alunos;
+* Aluno não pode ser excluído se estiver associado em uma turma;
+* Turma não pode ser excluída se possuir alunos;
 
 ## 🛠️ Construído com
 
