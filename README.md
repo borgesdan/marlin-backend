@@ -1,4 +1,4 @@
-﻿﻿# MARLIN API
+﻿# MARLIN API
 
 API que tem por objetivo gerenciar uma empresa que oferece cursos de idiomas e que possui turmas de nível básico, intermediário e avançado.
 Como proposto para o desafio de vaga para Desenvolvedor .NET C# para a empresa Marlin.
