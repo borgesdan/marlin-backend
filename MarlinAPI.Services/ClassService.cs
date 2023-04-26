@@ -307,7 +307,7 @@ namespace MarlinAPI.Service
 
         private static bool YearValidation(string year)
         {
-
+            return decimal.TryParse(year, out _);            
         }
     }
 }
