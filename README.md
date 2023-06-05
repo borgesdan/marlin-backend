@@ -17,10 +17,11 @@ A API oferece CRUD de alunos e turmas e segue as regras solicitadas:
 * Aluno não pode ser excluído se estiver associado em uma turma;
 * Turma não pode ser excluída se possuir alunos;
 
-### 📋 Instalação
+### 🔧 Instalação
 
-O projeto contém uma linha verificadora que busca conexão com o banco de dados e realiza a criação do banco ou tabelas caso não existem, isso no primeiro acesso em qualquer endpoint.
-Logo, não é necessária nenhuma instrução de criação de banco de dados. Todavia, caso seja necessário, utilize o comando na linha abaixo no Package Manager Console do seu Visual Studio.
+O projeto contém uma linha verificadora que busca conexão com o banco de dados e realiza a criação do banco ou tabelas caso não existam, isso no primeiro acesso em qualquer endpoint.
+Logo, torna-se desnecessário o uso de alguma instrução para criação de banco de dados e aplicação das migrações. 
+Todavia, caso seja necessário, utilize o comando na linha abaixo no Package Manager Console do seu Visual Studio.
 ```
 update-database
 ```
